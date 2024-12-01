@@ -54,7 +54,8 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref" : "C:/WEBs/Ionic/ionic-project/www/"
             },
             "development": {
               "buildOptimizer": false,
@@ -136,7 +137,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": "7ae54035-12f1-41b7-bfda-357c06b6a530"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
